@@ -1,0 +1,50 @@
+﻿{
+   "ContextClassName": "SchooldbContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "DoNotCombineNamespace": false,
+   "IdReplace": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": null,
+   "ProjectRootNamespace": "CodeFirstWithDatabase",
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Course]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Standard]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Student]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[StudentAddress]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[StudentCourse]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Teacher]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[View_StudentCourse]"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseSpatial": false
+}
